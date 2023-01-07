@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section */
+
+.banner {
+    background-image: url(../images//banner//banner3.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.banner h1 {
+    font-size: 55px;
+    color: white;
+
+}
+
+.banner p {
+    color: white;
+
+}
+
+button {
+    color: blue;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.banner_text {
+    padding: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+/* achievements section */
+.achievements_section{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.achievements_section h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.achievements{
+    /* margin: 100px; */
+    display: flex;
+}
+.achievement{
+    width: 250px;
+    margin-right: 50px;
+    box-shadow: 1px 2px 5px blue;
+}
+.achievement img{
+    width: 100%;
+}
+.achievement h3{
+    text-align: center;
+}
+
+
+/* failure_section */
+.failure_section {
+    margin: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure_section img {
+    margin-right: 50px;
+    width: 570px;
+    height: 450px;
+}
+
+.failure_section_text{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.failures{
+margin-left: 100px;
+}
+
+.failure_section_texts h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure_section_texts p {
+    color: #444343;
+    margin: 0;
+}
+
+/* plans section */
+
+#plans_section h1 {
+    margin: 0 230px 50px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#plans {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.plan p {
+    color: #737272;
+}
+
+/* watch_section */
+.watch_section {
+    margin: 40px 230px;
+    background-image: url(../images//watch.png);
+    background-size: cover;
+}
+
+.watch_section>.background {
+    background-image: url(../images//gradient1.png);
+    background-size: cover;
+    
+}
+
+.text{
+   padding-left: 50px;
+   padding-bottom: 40px;
+}
+
+.text h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.footer_part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.future_part img{
+    margin-right: 10px;
+}
+
+footer input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer button{
+    background-color: #005FAC;
+    
+    color: white;
+    margin-top: 15px;
+}
